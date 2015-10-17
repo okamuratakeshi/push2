@@ -79,5 +79,4 @@ function registerNotification(s) {
     endpoint += '/' + s.subscriptionId;
   // 自分のWebアプリサーバ等にプッシュ通知を登録する処理をここに実装
   // endpointにプッシュサービスのエンドポイントのURLが格納される
-  ...
 }
