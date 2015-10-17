@@ -67,7 +67,6 @@ function subscribe(sw) {
 function unsubscribe() {
   if(subscription) {
     // 自分のWebアプリサーバ等にプッシュ通知の解除を通知する処理をここに実装
-    ...
     subscription.unsubscribe();
   }
   resetSubscription();
